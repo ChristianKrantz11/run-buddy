@@ -57,3 +57,13 @@
     margin-left: 0;
     margin-right: 0;
 }
+@media screen and (max-width: 640px) {
+    .page-title h2 {
+        padding: 0 20px 15px;
+        font-size: 32px;
+    }
+
+    .secondary-content {
+        width: 100%;
+    }
+}

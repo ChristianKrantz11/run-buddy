@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Run Buddy pairs you with a personal running coach to help you reach your fitness goals." />
         <link rel="stylesheet" href="./assets/css/style.css" />
         <title>Run Buddy</title>
 
@@ -10,7 +12,7 @@
         <!-- navigation -->
   <header>
     <h1>
-        <a href="/">RUN BUDDY</a>
+        <a href="./index.html">RUN BUDDY</a>
     </h1>
     <nav><!-- Unordered list element -->
         <ul>
@@ -36,16 +38,16 @@
   <section class="hero">
     <div class="hero-form">
       <h3>Get Started Today</h3>
-      <p>Fill out this form and one of our trainers will schedule a consult</p>
+      <p>Fill out this form and one of our trainers will schedule a consult.</p>
       <form>
         <label for="name">Enter full name:</label>
-        <input type="text" placeholder="Your Name" name="name" id="name" class="form-input">
+        <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" autocomplete="name" required>
 
         <label for="email">Enter email address:</label>
-        <input type="text" placeholder="Email Address" name="email" id="email" class="form-input">
+        <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" autocomplete="email" required>
 
         <label for="phone">Enter a telephone number:</label>
-        <input type="text" placeholder="Phone Number" name="phone" id="phone" class="form-input">
+        <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" autocomplete="tel">
         <p>
           Have you worked out with a trainer before?
           <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -57,7 +59,7 @@
           <label for="checkbox" >
             I acknowledge that I am at least 18 years of age.
           </label>
-          <input type="checkbox" name="age-confirm" id="checkbox" />
+          <input type="checkbox" name="age-confirm" id="checkbox" required />
         </p>
         <button type="submit">
           Get running!
@@ -70,7 +72,9 @@
   <section id="what-we-do" class="intro">
   <h2 class="section-title  primary-border">What We Do</h2>
   <p>
-    butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+    Run Buddy pairs you with a certified personal trainer who builds a running plan around your goals, schedule and fitness level.
+    Whether you're training for your first 5K or chasing a marathon personal best, your trainer will keep you motivated,
+    track your progress and adjust your plan as you improve.
   </p>
   </section>
 
@@ -112,8 +116,7 @@
         <h3>Arron Stephens</h3>
         <h4>Speed / Strength</h4>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
-          itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+          Arron is a former collegiate sprinter who specializes in speed and strength work. His interval and hill sessions are built to make you faster without burning you out.
         </p>
       </div>
     </article>
@@ -123,8 +126,7 @@
         <h3>Joanna Gill</h3>
         <h4>Endurance</h4>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
-          itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+          Joanna has completed more than 20 marathons and coaches runners preparing for long-distance races. She focuses on steady mileage, smart pacing and staying injury-free.
         </p>
       </div>
       <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
@@ -136,8 +138,7 @@
         <h3>Harry "the Headband" Smith</h3>
         <h4>Strength</h4>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
-          itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+          Harry believes a strong body makes a strong runner. His strength and mobility routines build the core and leg power that keep you running well, headband optional.
         </p>
       </div>
     </article>
@@ -148,13 +149,12 @@
     <h2 class="section-title secondary-border">Reach Out</h2>
     <div class="contact-info">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13374.950888583344!2d-96.78152465!3d33.0633712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x86620c1f13454413!2sWhataburger!5e0!3m2!1sen!2sus!4v1602378422475!5m2!1sen!2sus" 
-        width="600" 
-        height="450" 
-        frameborder="0" 
-        style="border:0;" 
-        allowfullscreen="" 
-        aria-hidden="false" 
-        tabindex="0">
+        title="Map showing the Run Buddy location"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
       </iframe>
       <div>
         <h3>Run Buddy</h3>

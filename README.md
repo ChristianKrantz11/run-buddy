@@ -7,17 +7,21 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css&amp;logoColor=white" alt="CSS3">
 </p>
 
-<p align="center"><img src="docs/screenshot.jpg" alt="Run Buddy landing page with navigation and a Get Started Today sign-up form" width="850"></p>
+<p align="center">
+  <img src="docs/screenshot.jpg" alt="Run Buddy landing page on desktop with navigation and a Get Started Today sign-up form" width="640" align="top">
+  <img src="docs/screenshot-mobile.jpg" alt="Run Buddy landing page on a phone" width="190" align="top">
+</p>
 
 ## Features
 
-- Sticky header with links to each section of the page
-- Hero section with a "Get Started Today" sign-up form
+- Header with links to each section of the page
+- Hero section with a "Get Started Today" sign-up form. Email and phone fields use the right input types, and required fields are validated by the browser.
 - **What We Do**: an overview of the service
 - **What You Do**: a 4-step guide to getting started
 - **Meet the Trainers**: profiles for three trainers
-- **Reach Out**: contact info
+- **Reach Out**: an embedded map and contact details
 - A separate privacy policy page (`privacy-policy.html`)
+- Responsive layout with breakpoints for tablets (980px) and phones (640px)
 
 ## Built With
 
