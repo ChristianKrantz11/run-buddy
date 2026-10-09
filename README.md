@@ -1,6 +1,13 @@
-# Run Buddy
+<h1 align="center">🏃 Run Buddy</h1>
 
-A responsive landing page for **Run Buddy**, a fictional personal running-coach service.
+<p align="center">A responsive landing page for Run Buddy, a fictional personal running-coach service.</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css&amp;logoColor=white" alt="CSS3">
+</p>
+
+<p align="center"><img src="docs/screenshot.jpg" alt="Run Buddy landing page with navigation and a Get Started Today sign-up form" width="850"></p>
 
 ## Features
 
